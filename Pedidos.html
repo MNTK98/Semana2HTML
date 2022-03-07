@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNTKake Pedido</title>
+</head>
+
+<body>
+    <img src="./recursos/Logopasteles.png" alt="logo MNTKake" width="200">
+    <h1>Crea tu pastel!</h1>
+    <br>
+    <a href="./Pasteleria.html">
+        <input type="button" value="vovler al menu">
+    </a>
+    <form action="pedido.js">
+
+        <h2>Elige los sabores a tu gusto</h2>
+        <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+        <label for="topping1">Pastel de Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Vainilla">
+        <label for="topping2">Pastel de Vainilla</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+        <label for="topping3">Pastel de Fresa</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Limon">
+        <label for="topping4">Pastel de Limon </label><br><br>
+
+        <h2>Elige tu decoración preferida</h2>
+        <input type="checkbox" id="deco1" name="deco1" value="">
+        <label for="deco1">Tabletas de chocolate</label><br>
+        <input type="checkbox" id="deco2" name="deco2" value="">
+        <label for="deco2">Frutos rojos</label><br>
+        <input type="checkbox" id="deco3" name="deco3" value="">
+        <label for="deco3">Frutas de temporada</label><br>
+        <input type="checkbox" id="deco4" name="deco4" value="">
+        <label for="deco4">Figura 3D</label><br>
+        <input type="checkbox" id="deco5" name="deco5" value="">
+        <label for="deco5">Velas de cumpleaños</label><br>
+
+        <h2>Describe como quieres tu pastel </h2>
+        <input type="text" size="40" style="width: 400px;height: 200px;" max="500" id="Descripcion" name="Descripcion">
+        <br><br>
+
+
+        <h3>Por favor ingresa los datos para poder enviarte tu pedido</h3>
+
+        <label for="correo1">Correo para notificarte</label><br> 
+        <input type="email" id="correo1" name="correo1" placeholder="usuario@ejemplo.com"><br><br>
+
+        <label for="tel1">Numero de telefono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="Numero personal"><br><br>
+
+        <label for="Recibe">Nombre de quien recibe</label><br>
+        <input type="text" id="Recibe" name="Recibe" placeholder="Nombre"><br><br>
+
+
+        <br>
+
+        <input type="reset">
+        <input type="submit">
+
+        <br><br>
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
